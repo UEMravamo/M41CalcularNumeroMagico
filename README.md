@@ -30,3 +30,13 @@ Para cada caso, imprime Case #X: M, donde **X** es el número del caso (el prime
 Case #1: 1   
 Case #2: 4   
 Case #3: IMPOSSIBLE   
+
+
+---
+
+## Requisitos
+
+- Usa Python 3.7.
+- Escribe código conforme a PEP8.
+- Escribe algunas pruebas (considera usar pytest o uniitest).
+- Documenta tu solución en un archivo
