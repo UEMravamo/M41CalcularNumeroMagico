@@ -20,7 +20,7 @@ def procesar_casos(casos):
         resultados.append(f"Case #{i}: {resultado}")
     return resultados
 
-if __name__ == "__main__":
+if name == "main":
     print("Introduce el número de casos entre 1 y 500:")
     valido = False  # Variable de control para salir del bucle
     cantidad_casos = 0
@@ -36,8 +36,8 @@ if __name__ == "__main__":
             print("Por favor, introduce un número válido.")
     casos = []
 
-    print(f"Introduce los {cantidad_casos} números, uno por línea:")
-    for _ in range(cantidad_casos):
+    print(f"Introduce los {cantidadcasos} números, uno por línea:")
+    for  in range(cantidad_casos):
         numero = int(input().strip())
         if 1 <= numero <= 262:
             casos.append(numero)
