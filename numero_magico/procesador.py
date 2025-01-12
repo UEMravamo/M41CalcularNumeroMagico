@@ -1,7 +1,7 @@
 from functools import partial
 from multiprocessing import Pool
-from numero_magico.grafo_tuentistico import GrafoTuentistico, ExploradorGrafo
-from numero_magico.utils import generar_numeros_tuentisticos
+from grafo_tuentistico import GrafoTuentistico, ExploradorGrafo
+from utils import generar_numeros_tuentisticos
 
 
 def procesar_casos_mapreduce(casos):
